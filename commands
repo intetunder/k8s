@@ -1,0 +1,9 @@
+kubectl get pods
+kubectl get pods -w
+kubectl get ep
+kubectl get svc
+kubectl describe pod
+kubectl set image deployment/rolling-deployment2 nginx=nginx:1.7.4 --record
+kubectl set image deployment/rolling-deployment nginx=nginx:1.7.9 --record
+kubectl rollout history deployment/rolling-deployment --revision=2
+kubectl rollout history deployment/rolling-deployment 

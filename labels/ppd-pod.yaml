@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-ppd-label-pod
+  labels:
+    app: my-app
+    environment: ppd
+spec:
+  containers:
+  - name: nginx
+    image: nginx

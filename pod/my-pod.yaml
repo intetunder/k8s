@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+  labels:
+    app: myapp
+spec:
+  containers:
+  - name: myapp-containe
+    image: busybox
+    command: ['sh', '-c', 'echo Helo k8s! && sleep 3600']

@@ -1,0 +1,8 @@
+{
+    "cloudcode.profile-cluster-map": {
+        "[default]": "gke_active-incline-247715_europe-west1-b_python"
+    },
+    "cloudcode.profile-registry-map": {
+        "[default]": "gcr.io/active-incline-247715"
+    }
+}
